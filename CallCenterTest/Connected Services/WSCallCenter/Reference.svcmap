@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="527093fc-0932-47d5-ba7f-be5613540b02" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:59393/WSCallCenter.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WSCallCenter.xsd" MetadataType="Schema" ID="e9bf85a5-a2cf-4aed-b12c-07d00dc21f60" SourceId="1" SourceUrl="http://localhost:59393/WSCallCenter.svc?xsd=xsd0" />
+    <MetadataFile FileName="WSCallCenter.disco" MetadataType="Disco" ID="e2f3579d-2a08-4aad-a0a6-6b847a7b378c" SourceId="1" SourceUrl="http://localhost:59393/WSCallCenter.svc?disco" />
+    <MetadataFile FileName="WSCallCenter.wsdl" MetadataType="Wsdl" ID="059be857-e537-4f2b-86f2-e7fce66dea85" SourceId="1" SourceUrl="http://localhost:59393/WSCallCenter.svc?wsdl" />
+    <MetadataFile FileName="WSCallCenter1.xsd" MetadataType="Schema" ID="9703d453-5b15-4039-b3e9-5671dab1678b" SourceId="1" SourceUrl="http://localhost:59393/WSCallCenter.svc?xsd=xsd1" />
+    <MetadataFile FileName="WSCallCenter2.xsd" MetadataType="Schema" ID="0833410d-6d8e-4f2b-8eb7-7cf342e3803f" SourceId="1" SourceUrl="http://localhost:59393/WSCallCenter.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
